@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Policy  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="STY_1.1" id="NRD-1">
+  <status date="2017-10-18">draft</status>
+  <title xmlns:xhtml="http://www.w3.org/1999/xhtml">Guide to the Configuration of Music Playlist</title>
+   <description xmlns:xhtml="http://www.w3.org/1999/xhtml" >This guide presents a catalog of relevant
+    configuration settings for a playlist that I listen to while I work on software development.
+    <html:br xmlns:html="http://www.w3.org/1999/xhtml"/>
+    <html:br xmlns:html="http://www.w3.org/1999/xhtml"/>
+    Providing myself with such guidance reminds me how to efficiently
+    configure my playlist.  Lorem ipsum <html:i xmlns:html="http://www.w3.org/1999/xhtml">Lorem ipsum,</html:i> 
+    and Lorem ipsum.  Some example
+    <html:i xmlns:html="http://www.w3.org/1999/xhtml">Lorem ipsum</html:i>, which are Lorem ipsum.
+  </description>
+  <Group id="remediation_functions">
+    <title xmlns:xhtml="http://www.w3.org/1999/xhtml" >Remediation functions used by the SCAP Security Guide Project</title>
+    <description xmlns:xhtml="http://www.w3.org/1999/xhtml" >XCCDF form of the various remediation functions as used by
+      remediation scripts from the SCAP Security Guide Project</description>
+    <Value id="is_the_music_good" prohibitChanges="true" >
+      <title xmlns:xhtml="http://www.w3.org/1999/xhtml" >Remediation function to fix bad playlist</title>
+      <description xmlns:xhtml="http://www.w3.org/1999/xhtml" >Function to fix bad playlist.
+      
+        
+       Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+       
+       Lorem ipsum
+       Lorem ipsum
+       Lorem ipsum
+       Lorem ipsum
+      </description>
+      <value>
+        function fix_bad_playlist {
+        
+        # Load function arguments into local variables
+       Lorem ipsum
+       Lorem ipsum
+       Lorem ipsum
+        
+        # Check sanity of the input
+        if [ $# Lorem ipsum ]
+        then
+        echo "Usage: Lorem ipsum"
+        echo "Aborting."
+        exit 1
+        fi
+        
+        }
+      </value>
+    </Value>
+    </Group>
+    </Policy>
