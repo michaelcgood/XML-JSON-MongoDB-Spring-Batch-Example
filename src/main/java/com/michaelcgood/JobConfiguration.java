@@ -76,8 +76,8 @@ public class JobConfiguration {
                 System.out.println("Status of collection returns :::::::::::::::::::::" + doesexist);
                 
                 // show all DBObjects in foo collection
-                DBCursor chowmein = mongoTemplate.getCollection("foo").find();
-                List<DBObject> dbarray = chowmein.toArray();
+                DBCursor alldocs = mongoTemplate.getCollection("foo").find();
+                List<DBObject> dbarray = alldocs.toArray();
                 System.out.println("list of db objects returns:::::::::::::::::::::" + dbarray);
                 
                 // execute the three methods we defined for querying the foo collection
